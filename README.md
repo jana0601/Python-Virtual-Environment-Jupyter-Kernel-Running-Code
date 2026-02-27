@@ -20,6 +20,9 @@ cd C:\path\to\your\project
 
 # Create a venv called ".venv" using Python 3
 py -3 -m venv .venv
+or create venv with **Python 3.13**
+py -3.13 -m venv .venv
+
 ```
 
 ### Activate the environment
