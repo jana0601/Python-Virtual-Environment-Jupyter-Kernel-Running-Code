@@ -22,6 +22,8 @@ cd C:\path\to\your\project
 py -3 -m venv .venv
 or create venv with **Python 3.13**
 py -3.13 -m venv .venv
+# (optional) verify Python version
+.\.venv\Scripts\python.exe -c "import sys; print(sys.version)"
 
 ```
 
