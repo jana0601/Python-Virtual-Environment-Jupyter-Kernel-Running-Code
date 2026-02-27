@@ -185,10 +185,15 @@ jupyter lab
 
 ## Examples 
 ```
+# activate the venv
+PS C:\Users\xxx\Documents\workspace\Submission_Everything> .venv\Scripts\Activate.bat
+#then just run:
+python .\src\test.py
+#OR without activating:
+PS C:\Users\xxx\Documents\workspace\Submission_Everything> .venv\Scripts\python.exe .\src\test.py 
 PS C:\Users\xxx\Documents\workspace\Submission_Everything> .venv\Scripts\python.exe -m ipykernel install --user --name eeg_artifact_py313 --display-name "Python 3.13 (eeg_artifact)"
-
 PS C:\Users\xxx\Documents\workspace\Submission_Everything> .venv\Scripts\python.exe .\src\test.py
-C:\Users\xxx\Documents\workspace\Submission_Everything
+
 ```
 
 
