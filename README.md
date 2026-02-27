@@ -61,7 +61,7 @@ python -m pip install -r requirements.txt
 python -m pip install numpy pandas matplotlib jupyter
 ```
 # Install dependencies in venv from src\requirements.txt  
-cd C:\Users\zhao\Documents\workspace\Submission_Everything
+cd C:\Users\xxx\Documents\workspace\Submission_Everything
 
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r src\requirements.txt
